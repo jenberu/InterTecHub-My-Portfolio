@@ -37,6 +37,17 @@ body {
   }
   
   /* About Section */
+  .about {
+    padding: 10px 0;
+    border-bottom: 2px solid var(--yellow-theme-main-color);
+  }
+  
+  .about h1 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Services Section */
   .about__content {
     display: flex;
     gap: 20px;
@@ -91,42 +102,70 @@ body {
   
   .about__content__skills {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    background-color: #4caf50;
+  }
+  .about__content__skills h3 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    font-weight: 700;
+
   }
   
   .about__content__skills__content {
     width: 350px;
     height: 350px;
-    background: radial-gradient(circle, var(--yellow-theme-main-color) 180px, transparent 90%);
+    background: radial-gradient(circle,  180px, transparent 90%);
     position: relative;
     border-radius: 50%;
     border: 1.5px solid var(--yellow-theme-main-color);
-    animation: rotation 10s linear infinite;
+    /* animation: rotation 10s linear infinite; */
   }
   
   .about__content__skills__content  div {
     position: absolute;
   }
-  
-  .about__content__skills__content  div:nth-child(1) {
+  .about__content__skills__content div:nth-child(1) {
     top: -9%;
-    left: 41%;
+    left: 50%;
+    transform: translateX(-50%);
   }
   
-  .about__content__skills__content  div:nth-child(2) {
+  .about__content__skills__content div:nth-child(2) {
+    top: 20%;
+    right: 0;
+    transform: translateY(-50%);
+  }
+  
+  .about__content__skills__content div:nth-child(3) {
+    top: 50%;
     right: -8%;
-    top: 41.5%;
+    transform: translateY(-50%);
   }
   
-  .about__content__skills__content  div:nth-child(3) {
-    bottom: -10%;
-    left: 41%;
+  .about__content__skills__content div:nth-child(4) {
+    bottom: 20%;
+    right: 0;
+    transform: translateY(50%);
   }
   
-  .about__content__skills__content  div:nth-child(4) {
+  .about__content__skills__content div:nth-child(5) {
+    bottom: -9%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .about__content__skills__content div:nth-child(6) {
+    bottom: 20%;
+    left: 0;
+    transform: translateY(50%);
+  }
+  
+  .about__content__skills__content div:nth-child(7) {
+    top: 40%;
     left: -8%;
-    top: 41%;
+    transform: translateY(-50%);
   }
   
   .profile_image img {
