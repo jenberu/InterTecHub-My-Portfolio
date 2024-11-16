@@ -66,8 +66,15 @@ body {
     font-weight: 700;
     color: var(--yellow-theme-main-color);
   }
-  
-  .personal_info_header_text {
+  .profile h3 {
+    margin-bottom: 10px;
+    font-size: 2rem;
+    font-weight: 700;
+    padding-top: 0;
+    color: var(--yellow-theme-main-color);
+
+  }
+   .personal_info_header_text {
     padding-top: 20px;
   }
   
@@ -79,13 +86,13 @@ body {
     border-bottom: 1px dashed var(--yellow-theme-main-color);
   }
   
-  .about__content__personal ul > li {
+  .profile ul > li {
     line-height: 1rem;
     margin-bottom: 15px;
   }
   
-  .about__content__personal span.title,
-  .about__content__personal span.value {
+  .profile span.title,
+  .profile span.value {
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 0.5px;
@@ -96,7 +103,7 @@ body {
     color: var(--yellow-theme-sub-text-color);
   }
   
-  .about__content__personal span.title {
+  .profile span.title {
     border-bottom: 2px solid var(--yellow-theme-main-color);
   }
   
@@ -104,23 +111,23 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #4caf50;
   }
   .about__content__skills h3 {
-    margin-bottom: 10px;
-    font-size: 1.5rem;
+    margin-bottom: 20px;
+    font-size: 2rem;
     font-weight: 700;
+    color: var(--yellow-theme-main-color);
 
   }
   
   .about__content__skills__content {
     width: 350px;
     height: 350px;
-    background: radial-gradient(circle,  180px, transparent 90%);
+    background: radial-gradient(circle, lightblue 180px, transparent 90%);
     position: relative;
     border-radius: 50%;
     border: 1.5px solid var(--yellow-theme-main-color);
-    /* animation: rotation 10s linear infinite; */
+    animation: rotation 20s linear infinite;
   }
   
   .about__content__skills__content  div {
@@ -168,7 +175,7 @@ body {
     transform: translateY(-50%);
   }
   
-  .profile_image img {
+  .profile img {
     width: 400px;
     height: 400px;
     object-fit: cover;
