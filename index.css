@@ -44,23 +44,23 @@ body {
     width: 100%;
   }
   
-  .about__content__personalWrapper,
-  .about__content__serviceWrapper {
+  .about__content__personal,
+  .about__content__skills {
     width: 50%;
   }
   
-  .about__content__personalWrapper h3 {
+  .about__content__personal h3 {
     margin-bottom: 10px;
     font-size: 2.5rem;
     font-weight: 700;
     color: var(--yellow-theme-main-color);
   }
   
-  .personalInformationHeaderText {
+  .personal_info_header_text {
     padding-top: 20px;
   }
   
-  .about__content__personalWrapper p {
+  .about__content__personal p {
     color: var(--yellow-theme-sub-text-color);
     font-size: 1.2rem;
     line-height: 1.65;
@@ -68,13 +68,13 @@ body {
     border-bottom: 1px dashed var(--yellow-theme-main-color);
   }
   
-  .about__content__personalWrapper ul > li {
+  .about__content__personal ul > li {
     line-height: 1rem;
     margin-bottom: 15px;
   }
   
-  .about__content__personalWrapper span.title,
-  .about__content__personalWrapper span.value {
+  .about__content__personal span.title,
+  .about__content__personal span.value {
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 0.5px;
@@ -85,17 +85,17 @@ body {
     color: var(--yellow-theme-sub-text-color);
   }
   
-  .about__content__personalWrapper span.title {
+  .about__content__personal span.title {
     border-bottom: 2px solid var(--yellow-theme-main-color);
   }
   
-  .about__content__serviceWrapper {
+  .about__content__skills {
     display: flex;
     justify-content: center;
     align-items: center;
   }
   
-  .about__content__serviceWrapper__innerContent {
+  .about__content__skills__content {
     width: 350px;
     height: 350px;
     background: radial-gradient(circle, var(--yellow-theme-main-color) 180px, transparent 90%);
@@ -105,33 +105,33 @@ body {
     animation: rotation 10s linear infinite;
   }
   
-  .about__content__serviceWrapper__innerContent div {
+  .about__content__skills__content  div {
     position: absolute;
   }
   
-  .about__content__serviceWrapper__innerContent div:nth-child(1) {
+  .about__content__skills__content  div:nth-child(1) {
     top: -9%;
     left: 41%;
   }
   
-  .about__content__serviceWrapper__innerContent div:nth-child(2) {
+  .about__content__skills__content  div:nth-child(2) {
     right: -8%;
     top: 41.5%;
   }
   
-  .about__content__serviceWrapper__innerContent div:nth-child(3) {
+  .about__content__skills__content  div:nth-child(3) {
     bottom: -10%;
     left: 41%;
   }
   
-  .about__content__serviceWrapper__innerContent div:nth-child(4) {
+  .about__content__skills__content  div:nth-child(4) {
     left: -8%;
     top: 41%;
   }
   
-  .about__content__image img {
-    height: 400px;
+  .profile_image img {
     width: 400px;
+    height: 400px;
     object-fit: cover;
     border-radius: 50%;
     border: 1.5px solid var(--yellow-theme-main-color);
@@ -148,12 +148,12 @@ body {
       flex-direction: column;
     }
   
-    .about__content__personalWrapper,
-    .about__content__serviceWrapper {
+    .about__content__personal,
+    .about__content__skills {
       width: 100%;
     }
   
-    .about__content__serviceWrapper__innerContent {
+    .about__content__skills__content  {
       width: 250px;
       height: 250px;
       background: radial-gradient(circle, var(--yellow-theme-main-color) 100px, transparent 120%);
