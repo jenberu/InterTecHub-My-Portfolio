@@ -5,21 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
     <link rel="stylesheet" href="index.css" />
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+      <link rel="stylesheet" href="responsive.css" />
+
   </head>
   <body>
     <!-- Header Section -->
     <header class="header">
-      <div class="container">
+      <div class="header-text">
         <h1>Welcome to My Portfolio</h1>
         <p>Creative | Passionate | Driven</p>
       </div>
+         <!-- Navigation Bar -->
+    <nav>
+      <ul class="nav-list">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact </a></li>
+      </ul>
+    </nav>
     </header>
 
     <!-- About Section -->
     <section id="about" class="about">
+
       <h1>About Me</h1>
+
       <div class="about__content">
+
         <div class="profile">
           <img alt="Profile" src="images/profile_pic.jpg" />
           <h3 class="personal_info_header_text">Personal Information</h3>
@@ -108,9 +121,11 @@
           </div>
         </div>
       </div>
+      
     </section>
     <!-- Skills Section -->
     <section id="skills" class="skills">
+    
       <h1>My Skills</h1>
       <div class="Skills_container">
         <div class="web_dev_skills">
@@ -174,61 +189,67 @@
           </ul>
         </div>
       </div>
+      
     </section>
 
     <!-- Past Projects Section -->
-    <section class="projects">
+    <section id ="projects" class="projects">
+    
       <div class="container">
         <h2>My Projects</h2>
         <div class="project-grid">
           <div class="project">
             <h3>HuluGebeya</h3>
             <div class="image_wrapper">
-            <div >
-              <p> Django-template online shoping.</span></p>
-                <button onclick="handleVisitButtonClicked()">Visit</button>
-              </div>
+           
 
 
               <img src="images/projects/shop2.jpg" alt="online shop" />
+               <div >
+              <p> Django-template online shoping.</span></p>
+                <button onclick="handleVisitButtonClicked()">Visit</button>
+              </div>
             </div>
           </div>
           <div class="project">
             <h3>ICT4D Internship Portal</h3>
             <div class="image_wrapper">
-            <div>
-              <p>Django-React Internship Portal</span></p>
-              <button onclick="handleVisitButtonClicked()">Visit</button>
-              </div>
+           
               <img
                 src="images/projects/internship-portal.jpg"
                 alt="internship-portal"
               />
+               <div>
+              <p>Django-React Internship Portal</span></p>
+              <button onclick="handleVisitButtonClicked()">Visit</button>
+              </div>
             </div>
           </div>
           <div class="project">
             <h3>African Countries Data</h3>
             <div class="image_wrapper">
-            <div>
-              <p>React app displaying African countries' data.</p>
-              <button onclick="handleVisitButtonClicked()">Visit</button>
-              </div>
+           
               <img
                 src="images/projects/african-country.jpg"
                 alt="african-country"
               />
+               <div>
+              <p>React app displaying African countries' data.</p>
+              <button onclick="handleVisitButtonClicked()">Visit</button>
+             </div>
             </div>
           </div>
 
           <div class="project">
             <h3>Hotel Management</h3>
             <div class="image_wrapper">
-            <div>
+     
+              <img src="images/projects/hotel.jpg" alt="HMS" />
+                     <div>
               <p>JavaFX Hotel Management System.</p>
 
               <button onclick="handleVisitButtonClicked()">Visit</button>
             </div>
-              <img src="images/projects/hotel.jpg" alt="HMS" />
             </div>
           </div>
           <div class="project">
@@ -266,7 +287,7 @@
     </section>
 
     <!-- Contact Section -->
-  <section class="contact">
+  <section id ="contact" class="contact">
   <div class="container">
     <h2>Contact Me</h2>
     <p>
@@ -280,7 +301,7 @@
       You can also connect with me on:
     </p>
     <ul>
-      <li><a href="https://www.instagram.com/jenberu" target="_blank">Instagram</a></li>
+      <li><a href="https://www.instagram.com/jemberu" target="_blank">Instagram</a></li>
       <li><a href="https://www.linkedin.com/in/jemberu" target="_blank">LinkedIn</a></li>
       <li><a href="https://github.com/jenberu" target="_blank">GitHub</a></li>
         <li><a href="https://t.me/I_Love_my_lovers" target="_blank">Telegram</a></li>

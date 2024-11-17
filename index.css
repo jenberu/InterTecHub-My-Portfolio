@@ -22,21 +22,64 @@ body {
   
   /* Header Section */
   .header {
+    position: relative;
     background: linear-gradient(to right, #4caf50, #81c784);
     color: white;
     text-align: center;
     padding: 50px 0;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    height: 50px; 
   }
   
-  .header h1 {
+  .header .header-text {
+    position: absolute;
+    left: 20%;
+    top: 20px; 
+  }
+  
+  .header .header-text h1 {
     margin: 0;
     font-size: 2.5em;
   }
   
-  .header p {
+  .header .header-text p {
     font-size: 1.2em;
-    margin-top: 10px;
+    margin: 10px;
   }
+  
+  .header nav {
+    position: absolute;
+    right: 50px;
+    top: 20px; 
+
+  }
+  
+  .header .nav-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+  }
+  
+  .header .nav-list li {
+    font-size: 18px;
+  }
+  
+  .header .nav-list li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;  
+  }
+  
+  /* Hover effect */
+  .header .nav-list li a:hover {
+    color: hsl(281, 39%, 49%);
+  }
+  
   
   /* About Section */
   .about {
@@ -194,22 +237,7 @@ body {
     }
   }
   
-  @media screen and (max-width: 768px) {
-    .about__content {
-      flex-direction: column;
-    }
-  
-    .about__content__personal,
-    .about__content__skills {
-      width: 100%;
-    }
-  
-    .about__content__skills__content  {
-      width: 250px;
-      height: 250px;
-      background: radial-gradient(circle, var(--yellow-theme-main-color) 100px, transparent 120%);
-    }
-  }
+
 /*  skiils Sections */
 #skills {
   padding: 40px 10%;
@@ -263,57 +291,6 @@ body {
   transition: transform 0.3s ease;
 }
 
-
-/* Tablets  */
-@media (max-width: 768px) {
-  #skills {
-    padding: 40px 5%;
-  }
-
-  #skills h1 {
-    font-size: 2em;
-  }
-
-  .Skills_container {
-    grid-template-columns: 1fr 1fr; 
-  }
-
-  .Skills_container h3 {
-    font-size: 1.3em;
-  }
-
-  .Skills_container ul li {
-    font-size: 1em;
-  }
-}
-
-/* Mobile Devices  */
-@media (max-width: 480px) {
-  #skills {
-    padding: 30px 3%;
-  }
-
-  #skills h1 {
-    font-size: 1.8em;
-  }
-
-  .Skills_container {
-    grid-template-columns: 1fr; /* One column */
-  }
-
-  .Skills_container h3 {
-    font-size: 1.2em;
-  }
-
-  .Skills_container ul li {
-    font-size: 0.9em;
-  }
-}
-
-  
-  
-  
-  
   /* Projects Section */
   .projects {
     padding: 50px 0;
@@ -347,6 +324,7 @@ body {
     transition: transform 0.3s ease;
   }
   .project .image_wrapper {
+    position: relative;
     height: 250px;
     width: 100%;
     overflow: hidden
@@ -366,7 +344,7 @@ body {
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 50px;
+    top: 0;
     left: 0;
     height: 250px;
     width: 100%;
