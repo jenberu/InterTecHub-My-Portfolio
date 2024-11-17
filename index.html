@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
     <link rel="stylesheet" href="index.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   </head>
   <body>
     <!-- Header Section -->
@@ -183,14 +184,22 @@
           <div class="project">
             <h3>HuluGebeya</h3>
             <div class="image_wrapper">
-              <p><span>This is Django online shoping.</span></p>
+            <div >
+              <p> Django-template online shoping.</span></p>
+                <button onclick="handleVisitButtonClicked()">Visit</button>
+              </div>
+
+
               <img src="images/projects/shop2.jpg" alt="online shop" />
             </div>
           </div>
           <div class="project">
             <h3>ICT4D Internship Portal</h3>
             <div class="image_wrapper">
-              <p><span>This is Django-React Internship Portal</span></p>
+            <div>
+              <p>Django-React Internship Portal</span></p>
+              <button onclick="handleVisitButtonClicked()">Visit</button>
+              </div>
               <img
                 src="images/projects/internship-portal.jpg"
                 alt="internship-portal"
@@ -200,7 +209,10 @@
           <div class="project">
             <h3>African Countries Data</h3>
             <div class="image_wrapper">
-              <p><span>This is React African Countries Data</span></p>
+            <div>
+              <p>React app displaying African countries' data.</p>
+              <button onclick="handleVisitButtonClicked()">Visit</button>
+              </div>
               <img
                 src="images/projects/african-country.jpg"
                 alt="african-country"
@@ -211,28 +223,41 @@
           <div class="project">
             <h3>Hotel Management</h3>
             <div class="image_wrapper">
-              <p><span>This is Java Hotel Management DeskTop App </span>.</p>
+            <div>
+              <p>JavaFX Hotel Management System.</p>
+
+              <button onclick="handleVisitButtonClicked()">Visit</button>
+            </div>
               <img src="images/projects/hotel.jpg" alt="HMS" />
             </div>
           </div>
           <div class="project">
             <h3>E-Learnig</h3>
             <div class="image_wrapper">
-              <p><span>This is E-Learning.</span></p>
+            <div>
+              <p>Flutter E-Learning Mobile app.</span></p>
+              <button onclick="handleVisitButtonClicked()">Visit</button>
+            </div>
               <img src="images/projects/E-learnig.jpg" alt="E-learnig" />
             </div>
           </div>
           <div class="project">
             <h3>Java Compiler Development</h3>
             <div class="image_wrapper">
-              <p><span>This is Java Compiler using C language.</span></p>
+            <div>
+              <p> Java Compiler using C language.</span></p>
+              <button onclick="handleVisitButtonClicked()">Visit</button>
+            </div>
               <img src="images/projects/compiler.jpg" alt="Java Compiler" />
             </div>
           </div>
           <div class="project">
             <h3>Movie Review</h3>
             <div class="image_wrapper">
-              <p><span>This is Django Movie Review Web app.<span></p>
+              <div>
+              <p> Django Movie Review Web app.<span></p>
+              <button onclick="handleVisitButtonClicked()">Visit</button>
+              </div>
               <img src="images/projects/movie.jpg" alt="Movie Review" />
             </div>
           </div>
@@ -257,5 +282,10 @@
         <p>© 2024 Jemberu kassie. All rights reserved.</p>
       </div>
     </footer>
+    <script >
+      function handleVisitButtonClicked() {
+    alert("This App is not deployed yet");
+  }
+    </script>
   </body>
 </html>
