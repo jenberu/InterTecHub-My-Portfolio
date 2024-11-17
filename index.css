@@ -355,7 +355,7 @@ body {
     text-align: center; 
 
   }
-  .project .image_wrapper div  button{
+  .project .image_wrapper div  .button{
     cursor: pointer;
     padding: 10px 70px;
     font-size: 1.5rem;
@@ -364,6 +364,7 @@ body {
     border : 1.5px solid white;
     border-radius: 4px;
     font-weight: 500;
+    text-decoration: none;
 
 }
    .project h3 {
