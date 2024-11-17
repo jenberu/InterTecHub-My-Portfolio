@@ -58,3 +58,19 @@
       font-size: 0.9em;
     }
   }
+  @media (min-width: 768px) and (max-width: 979px) {
+    .header .header-text {
+
+        left: 30px;
+    }
+    .header .header-text h1 {
+        font-size: 1.5em;
+
+    }
+  }
+  @media (min-width: 979px) and (max-width: 1075px) {
+    .header .header-text {
+
+        left: 30px;
+    }
+  }
