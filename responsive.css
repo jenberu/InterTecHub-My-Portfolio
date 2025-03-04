@@ -94,6 +94,13 @@
   }
 
 }
+@media (max-width: 400px) {
+  .about__content {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+
+  }
+
+}
   @media (min-width: 768px) and (max-width: 979px) {
     .header .header-text {
 
