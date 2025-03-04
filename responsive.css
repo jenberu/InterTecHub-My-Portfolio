@@ -53,8 +53,14 @@
   /* Mobile Devices  */
   @media (max-width: 480px) {
     .about{
-      width:400px;
-
+      width: auto;
+    }
+    h3{
+      font-size:20px !important;
+    }
+    .about__content__personal,
+    .about__content__skills {
+      width: 320px;
     }
     #skills {
       padding: 30px 3%;
@@ -71,7 +77,9 @@
     .Skills_container h3 {
       font-size: 1.2em;
     }
-  
+    .Skills_container > div {
+      width: 80%;
+    }
     .Skills_container ul li {
       font-size: 0.9em;
     }
