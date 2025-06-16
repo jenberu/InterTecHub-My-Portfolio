@@ -6,6 +6,10 @@
     <title>Jemberu's Portfolio</title>
     <link rel="stylesheet" href="index.css" />
       <link rel="stylesheet" href="responsive.css" />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
 
   </head>
   <body>
@@ -128,15 +132,30 @@
     
       <h1>My Skills</h1>
       <div class="Skills_container">
-        <div class="web_dev_skills">
-          <h3>Web Development (Front-End & Back-End)</h3>
-          <ul>
-            <li>Django</li>
-            <li>React</li>
-            <li>Node.js</li>
-            <li>Flutter</li>
-          </ul>
-        </div>
+      <div class="web_dev_skills" style="max-width:600px; margin:0 auto;">
+  <h3>Web Development (Front-End & Back-End)</h3>
+  <ul style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; list-style: none; padding: 0;">
+    <li style="display: flex; align-items: center; gap: 10px; padding: 8px 12px; background-color: #f5f5f5; border-radius: 6px; font-weight: 500;">
+      <i class="fab fa-python" style="font-size: 20px; width: 24px; height: 24px;"></i> Django
+    </li>
+    <li style="display: flex; align-items: center; gap: 10px; padding: 8px 12px; background-color: #f5f5f5; border-radius: 6px; font-weight: 500;">
+      <i class="fab fa-react" style="font-size: 20px; width: 24px; height: 24px;"></i> React
+    </li>
+    <li style="display: flex; align-items: center; gap: 10px; padding: 8px 12px; background-color: #f5f5f5; border-radius: 6px; font-weight: 500;">
+      <img src="https://cdn.worldvectorlogo.com/logos/next-js.svg" alt="Next.js" style="width: 24px; height: 24px; object-fit: contain;" /> Next.js
+    </li>
+    <li style="display: flex; align-items: center; gap: 10px; padding: 8px 12px; background-color: #f5f5f5; border-radius: 6px; font-weight: 500;">
+      <img src="https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png" alt="Redux" style="width: 24px; height: 24px; object-fit: contain;" /> Redux
+    </li>
+    <li style="display: flex; align-items: center; gap: 10px; padding: 8px 12px; background-color: #f5f5f5; border-radius: 6px; font-weight: 500;">
+      <i class="fab fa-node" style="font-size: 20px; width: 24px; height: 24px;"></i> Node.js
+    </li>
+    <li style="display: flex; align-items: center; gap: 10px; padding: 8px 12px; background-color: #f5f5f5; border-radius: 6px; font-weight: 500;">
+      <img src="https://cdn.worldvectorlogo.com/logos/flutter.svg" alt="Flutter" style="width: 24px; height: 24px; object-fit: contain;" /> Flutter
+    </li>
+  </ul>
+</div>
+
         <div class="database_skills">
           <h3>Database</h3>
           <ul>
@@ -160,14 +179,34 @@
             <li>Git (GitHub for code repositories)</li>
           </ul>
         </div>
-        <div class="cloud_skills">
-          <h3>Cloud & Deployment:</h3>
-          <ul>
-            <li>AWS</li>
-            <li>Firebase</li>
-            <li>Docker</li>
-          </ul>
-        </div>
+       <div class="cloud_skills">
+  <h3>Cloud & Deployment:</h3>
+  <ul>
+    <li><i class="fab fa-aws"></i> AWS</li>
+    <li><i class="fas fa-fire"></i> Firebase</li>
+    <li><i class="fab fa-docker"></i> Docker</li>
+    <li>
+      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/render.svg"
+           alt="Render"
+           style="height: 1em; vertical-align: middle; filter: invert(14%) sepia(84%) saturate(2204%) hue-rotate(191deg) brightness(94%) contrast(88%);" />
+      Render
+    </li>
+    <li>
+      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/vercel.svg"
+           alt="Vercel"
+           style="height: 1em; vertical-align: middle;" />
+      Vercel
+    </li>
+    <li>
+      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/railway.svg"
+           alt="Railway"
+           style="height: 1em; vertical-align: middle;" />
+      Railway
+    </li>
+  </ul>
+</div>
+
+
 
         <div class="tools_skills">
           <h3>Tools & Libraries:</h3>
@@ -176,6 +215,13 @@
             <li>Django Rest Framework</li>
             <li>React Navigation</li>
             <li>Material-UI</li>
+            <li>Redux Toolkit</li>
+            <li>Axios</li>
+            <li>Postman</li>
+              <li>Formik</li>
+
+
+
           </ul>
         </div>
         <div class="soft_skills">

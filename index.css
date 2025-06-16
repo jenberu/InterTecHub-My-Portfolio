@@ -279,6 +279,21 @@ body {
   color: var(--secondary-color);
   margin-bottom: 15px;
 }
+ .cloud_skills ul ,.web_dev_skills ul , .tools_skills ul{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+  }
+ .cloud_skills ul li ,.web_dev_skills ul li , 
+ .tools_skills ul li , .version_control_skills ul li , 
+ .database_skills ul li , .programming_skills ul li {
+  font-size: 1.1em;
+  color: #555;
+  margin: 8px 0;
+ background-color: #f5f5f5;
+  }
 
 .Skills_container ul {
   list-style: none;
